@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "npx live-server application-under-test --port=8081 --no-browser",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio wdio.conf.js"
   },
   "keywords": [],
   "author": "",
